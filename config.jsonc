@@ -1,0 +1,73 @@
+{
+	/* STARTUP */
+	"workbench.startupEditor": "newUntitledFile",
+	/* EDITOR CONFIG*/
+	// font settings
+	"editor.fontSize": 16,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	// other editor config
+	"editor.insertSpaces": false,
+	"editor.linkedEditing": true,
+	"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/__?_",
+	/* TERMINAL CONFIG */
+	"terminal.integrated.fontSize": 16,
+	/* INTERFACE SETTINGS*/
+	"window.zoomLevel": 1,
+	"breadcrumbs.enabled": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"explorer.compactFolders": false,
+	"window.menuBarVisibility": "toggle",
+	// theme settings
+	"workbench.iconTheme": "bearded-icons",
+	"workbench.colorTheme": "Bearded Theme Arc EolStorm",
+	/* FORMAT DOCUMENT */
+	"editor.glyphMargin": false,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.renderWhitespace": "boundary",
+	"files.trimFinalNewlines": true,
+	"editor.detectIndentation": false,
+	"files.trimTrailingWhitespace": true,
+	// default formater
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// tab settings
+	"editor.tabSize": 2,
+	// wrap word
+	"diffEditor.wordWrap": "on",
+	"editor.wordWrapColumn": 76,
+	"editor.wordWrap": "wordWrapColumn",
+	/* SECURITY SETTINGS */
+	"security.workspace.trust.enabled": false,
+	/* NOTICE AND GIFTS */
+	"update.showReleaseNotes": false,
+	"editor.parameterHints.enabled": false,
+	"editor.hover.enabled": false,
+	/* OTHER SETTINGS*/
+	"files.eol": "\n",
+	/* PLUGIN SETTINGS */
+	// prettier
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	// bracket-pair-colorizer
+	"bracket-pair-colorizer-2.depreciation-notice": false,
+	// ecsstractor
+	"ecsstractor_port.add_comment": false,
+	"ecsstractor_port.empty_line_before_nested_selector": false,
+	// live server
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true
+}
